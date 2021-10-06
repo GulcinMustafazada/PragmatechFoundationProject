@@ -1,0 +1,11 @@
+body{
+    margin:0px;
+}
+.container{
+ border-right:300px solid transparent;
+ border-bottom:300px solid rgb(38, 182, 230);
+ border-left:300px solid transparent;
+ width:0px;
+ height:0px;
+ margin:150px auto;
+}
