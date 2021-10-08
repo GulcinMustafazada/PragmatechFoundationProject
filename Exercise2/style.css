@@ -1,0 +1,164 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.container{
+    width:500px;
+    height: 300px;
+    margin:0px auto;
+    background-color: rgb(235, 231, 231);
+  
+}
+.box{
+     width:100%;
+     height:50px;
+     background-color: rgb(151, 149, 149);
+     display: flex;
+     
+}
+.box1{
+    width:30px;
+    color: white;
+    flex-basis: 100px;
+    display: inline-block;
+    margin:auto;
+
+}
+.box2{
+    width:15%;
+   justify-content:right;
+    color: white;
+    font-size: small;
+    margin:auto 0px;
+    text-align: center;
+   
+}
+h4{
+    text-align:center;
+   
+    margin:80px 100px 0 100px;
+    color:rgb(112, 106, 106);
+}
+.container p{
+    text-align:center;
+    display: inline-block;
+    margin:20px 100px 0px 100px;
+   
+}
+h3{
+    margin:30px auto;
+    font-style: normal;
+    text-align: center;
+    color: gray;
+
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    margin:auto ;
+    color: gray;
+    
+}
+.main{
+    width:500px;
+    height:150px;
+    
+    margin:30px auto;
+    display: flex;
+}
+.item
+{
+   width: 50%;
+    height:80%;
+    justify-content: space-between;
+    border: 1px solid rgb(235, 231, 231);
+    margin:0px 10px;
+    background-color: rgb(235, 231, 231);
+    
+    
+}
+
+
+
+.main2{
+    width:500px;
+    height:220px;
+    background-color: rgb(175, 170, 170);
+    margin:0px auto;
+    display:flex;
+   flex-wrap:wrap;
+
+}
+.main2-item1{
+    width: 120px;
+    height:120px;
+   
+    border: 1px solid rgb(235, 231, 231);
+    margin:15px auto;
+     padding-left: 13px;
+    background-color: rgb(235, 231, 231);
+}
+.main2-item2{
+    
+    display:flex;
+    justify-content: center;
+    width:150px;
+    height:80px;
+    margin:0 auto;
+   
+}
+h5{
+    
+  
+    padding-top:0px;
+    margin:0 23px;
+    color:rgb(112, 106, 106);
+   text-align:center;
+    
+}
+.end{
+    width:480px;
+    height:100px;
+    margin-top:50px;
+    margin-bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-between;
+
+}
+.end-item{
+   
+    background-color: rgb(235, 231, 231);
+    width:30%;
+    height:100%;
+}
+.end-item1{
+   
+    width:30%;
+    height:100%;
+    display: inline-block;
+    font-size:12px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:left;
+} 
+.end-item2{
+   
+    background-color: rgb(235, 231, 231);
+    width:30%;
+    height:100%;
+
+}
+.end-item3{
+   
+    width:30%;
+    height:100%;
+    display: inline-block;
+    font-size:12px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:left
+    
+}   
+
