@@ -2,7 +2,7 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .container{
-    background-color: aqua;
+    background-color: rgb(140, 250, 250);
     width:100%;
     height:100px;
 }
@@ -33,7 +33,7 @@ body{
 }
 
 .navbar-nav-name{
-font-size:27px;
+font-size:26px;
 font-weight: 600;
 color:rgb(221, 218, 218);
 margin-right:30px;
