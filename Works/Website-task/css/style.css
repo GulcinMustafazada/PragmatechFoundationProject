@@ -1,0 +1,84 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#toolbar{
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+  
+    width:100%;
+ 
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+}
+.toolbar-content{
+    display:flex;
+    justify-content:space-between;
+}
+.toolbar-content-view{
+    display:flex;
+    justify-content:center;
+}
+.desktop-view i{
+    size:3px;
+    width:40px;
+    height:40px;
+}
+.toolbar-title {
+    display:flex;
+    align-items: baseline;
+    color: #20303c;
+    font-size:18px;
+    padding-right:15px;
+}
+.toolbar-title a{
+    color: #20303c;
+    font-size:14px;
+    padding-right:30px;
+}
+.toolbar-title p{
+    padding-right:20px;
+}
+button{
+   
+    width: 150px;
+    background-color: #116dff;
+    padding: 0 27px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 21px;
+    cursor: pointer;
+    text-align: center;
+    border:none;
+    padding-right:25px;
+}
+.toolbar-title button a{
+    color:white; 
+   text-decoration: none;
+   font-size: 14px;
+  
+}
+.navbar{
+    padding-top:120px;
+}
+
+.navbar-nav ul {
+    
+    display:flex;
+    justify-content:center;
+    padding-left:200px;
+}
+.navbar-nav ul li a{
+    text-decoration: none;
+    color:black; 
+    font-size: 20px;
+    padding-right:20px;
+
+}
+.img{
+   padding-left:100px;
+}
