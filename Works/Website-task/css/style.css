@@ -1,5 +1,6 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    color: #20303c;
 }
 #toolbar{
     position: fixed;
@@ -23,16 +24,12 @@ body{
     display:flex;
     justify-content:center;
 }
-.desktop-view i{
-    size:3px;
-    width:40px;
-    height:40px;
-}
+
 .toolbar-title {
     display:flex;
     align-items: baseline;
-    color: #20303c;
-    font-size:18px;
+    color: #3a4f61;
+    font-size:17px;
     padding-right:15px;
 }
 .toolbar-title a{
@@ -77,11 +74,34 @@ button{
 }
 .navbar-nav ul li a{
     text-decoration: none;
-    color:black; 
-    font-size: 18px;
+    color:rgb(43, 40, 40); 
+    font-size: 13px;
     padding-right:40px;
 
 }
-.main-info img{
-    margin-top:50px;
+.main{
+    margin:50px;
+    margin-top:25px;
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+
+.main-info h2{
+    font-size:40px;
+    background-color: white;
+    color:inherit;
+    font-weight:bold;
+    
+
+}
+.main-info h1{
+    font-size:70px;
+    background-color: white;
+    color:inherit;
+    font-weight:bold;
+  
+    
+
 }
