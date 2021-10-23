@@ -66,19 +66,22 @@ button{
     padding-top:120px;
 }
 
-.navbar-nav ul {
-    
+.navbar-nav ul  {
+    transition:   all .2s ease;
     display:flex;
     justify-content:center;
-    padding-left:200px;
+    padding-left:350px;
+}
+.navbar-nav ul li a:hover{
+   color:rgb(98, 186, 245);
 }
 .navbar-nav ul li a{
     text-decoration: none;
     color:black; 
-    font-size: 20px;
-    padding-right:20px;
+    font-size: 18px;
+    padding-right:40px;
 
 }
-.img{
-   padding-left:100px;
+.main-info img{
+    margin-top:50px;
 }
