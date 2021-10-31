@@ -1,0 +1,21 @@
+body{
+    margin:0 auto;
+
+}
+.container{
+    border:1px solid black;
+    height:200px;
+    box-sizing:border-box;
+   padding:20px;
+   
+}
+.navbar{
+  
+    border:1px solid black;
+    padding:30px;
+    box-sizing: border-box;
+}
+.navbar h3{
+    margin:0px;
+
+}
