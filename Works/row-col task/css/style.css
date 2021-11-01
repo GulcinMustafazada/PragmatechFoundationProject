@@ -2,7 +2,7 @@ body{
     margin:0 auto;
 
 }
-.container{
+.head{
     border:1px solid black;
     height:200px;
     box-sizing:border-box;
@@ -18,4 +18,20 @@ body{
 .navbar h3{
     margin:0px;
 
+}
+#main{
+    margin-top:50px;
+}
+.item1{
+    height:200px;
+    border:1px solid black;
+}
+.item2{
+    height:200px;
+    border:1px solid black;
+}
+.footer{
+    margin-top:50px;
+    border:1px solid black;
+    padding:10px;
 }
