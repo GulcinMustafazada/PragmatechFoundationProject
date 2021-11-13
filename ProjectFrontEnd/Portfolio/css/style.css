@@ -116,8 +116,11 @@ padding: 10px 0px;
 }
 .more{
     border:2px solid #fff;
-    width:50px;
-    height:50px;
+    width:120px;
+    height:35px;
+    display:flex;
+    align-items:center;
+
     
    
 }
@@ -136,6 +139,6 @@ padding: 10px 0px;
 }
 .social i{
     color:#fff;
-    width:50px;
-    height:50px;
+    width:100px;
+    height:100px;
 }
