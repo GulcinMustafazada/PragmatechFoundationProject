@@ -5,24 +5,46 @@
     width:300px;
     height:300px;
     margin: 100px auto;
+    position: relative;
+    
 
    
    
 }
-img{
+.img1{
     object-fit: cover;
     width: 100%;
     height:100%;
-    position: relative;
+    position: absolute;
     animation-name: example;
-    animation-duration: 2s;  
-    animation-fill-mode:both;
-    z-index: 1;
+    animation-duration: 1s;  
+   
+
+
 
     
+}
+.img2{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    animation: example1 1s infinite ;
+    
+
 }
 
 @keyframes example {
     from {top: 100px;}
-    to {top: 0px;opacity: 0;}
+    to {top: 0px;opacity: 0;} 
+   
   }
+  @keyframes example1{
+      from{top:0px;}
+      to{top:100px;}
+  }
+
+  .animate-this {
+    animation: 
+       first-animation 1s infinite, 
+       another-animation 1s ;
+ }
