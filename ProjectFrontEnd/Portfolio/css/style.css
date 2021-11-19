@@ -26,9 +26,16 @@ body{
     width: 40vh;
 }
 .navbar-logo{
-    margin-top:40px;
-    padding:40px;
+    margin:10px auto;
+    padding:35px;
+    box-sizing: border-box;
+   
     
+}
+.navbar-logo img{
+    width:200px;
+    height:70px;
+   
 }
 .navbar-nav ul {
     text-align: center;
@@ -36,22 +43,31 @@ body{
     justify-content: space-around;
     flex-direction: column;
     height: 48vh;
+ 
 
+}
+.navbar-nav ul li{
+
+    margin-right:50px;
+    padding:27px 0px;
 }
 
 .navbar-nav a.active {
     background-color: #fff;
     color: #232323;
+    
 }
 .navbar-nav ul li a{
     text-decoration:none;
     color:#e9e3e3;
     transition: color 2s, background 1s;
-    padding: 20px 30px;
+    padding: 25px 30px;
     position: relative;
     z-index: 0;
     font-size: 18px;
+    letter-spacing: 1px;
     cursor: pointer;
+  
    
 
 }
@@ -154,8 +170,9 @@ padding: 10px 0px;
 }
 .social i{
     color:#fff;
-    width:100px;
-    height:100px;
+    width:60px;
+    height:60px;
+    
 }
 /*Home section style end*/
 .footer-item{
