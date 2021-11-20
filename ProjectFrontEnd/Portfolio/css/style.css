@@ -76,6 +76,7 @@ body{
     width:20px;
     height:20px;
     text-align: center;
+   
 }
 .navbar-nav em{
     margin-left:5px;
@@ -173,10 +174,12 @@ padding: 10px 0px;
     justify-content: space-between;
     
 }
+
 .social i{
     color:#fff;
     width:60px;
     height:60px;
+    
     
 }
 /*Home section style end*/
