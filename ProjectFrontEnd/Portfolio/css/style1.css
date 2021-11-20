@@ -66,6 +66,7 @@ img{
     height:35px;
     display:flex;
     align-items:center; 
+    transition: all 1s ease;
    
 }
 .btn a{
@@ -73,6 +74,13 @@ img{
     font-size:12px;
     text-decoration: none;
     padding:20px;
+}
+.btn:hover{
+    background-color: #fff;
+    
+}
+.btn a:hover{
+    color:#232323;
 }
 .footer-item{
     left: 30%;
