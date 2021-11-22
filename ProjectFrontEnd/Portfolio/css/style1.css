@@ -29,7 +29,8 @@
 
     width:430px;
     height:540px;
-    padding:35px;
+    padding:40px;
+    margin-bottom:50px;
     box-sizing: border-box;
 }
 .about-content h1{
@@ -52,12 +53,20 @@ padding: 8px;
 }
 .about-image{
     
-    height:100%;
-  
+   height:540px;;
+   width:480px;
+   margin-left:30px;
+ 
+   box-sizing: border-box;
+
     
 }
 img{
-    object-fit:cover;
+   
+    
+object-fit: cover;
+height:100%;
+width:100%;
 }
 .btn{
     margin: 20px 10px;
