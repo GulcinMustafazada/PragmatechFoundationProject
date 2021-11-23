@@ -64,16 +64,7 @@ object-fit: cover;
 height:100%;
 width:100%;
 }
-.btn{
-    margin: 20px 10px;
-    border:2px solid #fff;
-    width:120px;
-    height:35px;
-    display:flex;
-    align-items:center; 
-    transition: all 1s ease;
-   
-}
+
 .btn a{
     color:#fff;
     font-size:12px;

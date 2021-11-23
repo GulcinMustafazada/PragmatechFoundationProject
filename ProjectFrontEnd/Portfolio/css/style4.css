@@ -65,14 +65,9 @@
 }
 
 .btn{
-    margin: 20px 10px;
-    border:2px solid #fff;
-    width:375px;
-    height:35px;
-    display:flex;
-    align-items:center; 
     justify-content: center;
-    transition: all 1s ease;
+    width:375px;
+   
    
 }
 .btn a{

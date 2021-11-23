@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.text-align{
+    text-align:center;
+}
+.color{
+    color: #fff;
+}
+.align-items-center{
+    align-items:center
+}
+.flex-direction{
+    flex-direction:column;
+}
+.btn{
+    
+    border:2px solid #fff;
+    width:120px;
+    height:35px;
+    display:flex;
+    align-items:center;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+.btn-margin{
+    margin: 20px 10px;
+}
