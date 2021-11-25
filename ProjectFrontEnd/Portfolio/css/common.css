@@ -25,6 +25,15 @@
     align-items:center;
     text-decoration: none;
     transition: all 1s ease;
+    justify-content: center;
+}
+.btn a{
+    color:#fff;
+    font-size:12px;
+    text-decoration: none;
+    padding:20px;
+
+
 }
 .btn-margin{
     margin: 20px 10px;

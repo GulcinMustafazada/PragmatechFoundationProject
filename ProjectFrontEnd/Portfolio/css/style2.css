@@ -57,7 +57,17 @@ height:100%;
         line-height: 25px;
         padding:10px;
     }
-   
+    .btn{
+    
+        border:2px solid #fff;
+        width:170px;
+        height:35px;
+        display:flex;
+        align-items:center;
+        text-decoration: none;
+        transition: all 1s ease;
+        justify-content: center;
+    }
     .btn a{
         color:#fff;
         font-size:12px;

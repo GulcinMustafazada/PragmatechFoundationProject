@@ -158,14 +158,7 @@ padding: 10px 0px;
 .btn a:hover{
     color:#232323;
 }
-.home-content a{
-    color:#fff;
-    font-size:12px;
-    text-decoration: none;
-    padding:20px;
 
-
-}
 .social{
     
     justify-content: space-between;
@@ -174,9 +167,8 @@ padding: 10px 0px;
 
 .social i{
     color:#fff;
-    width:60px;
-    height:60px;
-    
+  font-size:30px;
+ 
     
 }
 /*Home section style end*/
