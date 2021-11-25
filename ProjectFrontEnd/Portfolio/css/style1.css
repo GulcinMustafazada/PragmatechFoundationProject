@@ -65,12 +65,7 @@ height:100%;
 width:100%;
 }
 
-.btn a{
-    color:#fff;
-    font-size:12px;
-    text-decoration: none;
-    padding:20px;
-}
+
 .btn:hover{
     background-color: #fff;
     
