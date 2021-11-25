@@ -92,19 +92,3 @@
 
 
 
-.footer-item{
-    left: 30%;
-    width: 70%;
-    max-width: 70%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-}
-.footer-item p{
-    text-align: center;
-    font-size: 13px;
-    color: #fff;
-    margin-bottom: 20px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
