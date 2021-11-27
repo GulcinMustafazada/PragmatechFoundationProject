@@ -47,8 +47,12 @@ Proqramların yazılma qaydası, onları konsepsiyası, dizaynı və s. proqraml
 
 ---
 ## V8 Engine nədir? Əsas hansı vəzifələri icra edir? Javascript və V8 engine arasında əlaqə nədir?
-Javascriptde əmr sıralaması yəni əmrlərin düzgün oxunması yuxarıdan aşağı,və ya soldan sağa olaraq həyata keçirilir.
-Bu zaman əgər hər hansı əmrin icrasında xəta yaranarsa v8 engine bunu oxuyur və brauzerde bize xəta barədə məlumat göndərilir.v8 engine xətaya olan  hissədəki kodları icra edir.
+V8 Google Chrome-u gücləndirən JavaScript mühərrikinin adıdır. V8 bizim JavaScript kodlarimizi Google Chrome-da icta edir.
+V8 JavaScript-in icra olunduğu iş vaxtı mühitini təmin edir. 
+Ən maraqlısı odur ki, JavaScript mühərriki yerləşdiyi brauzerdən müstəqildir.
+Bu əsas xüsusiyyət Node.js-in yüksəlişini təmin etdi.
+V8 2009-cu ildə Node.js-i təchiz edən mühərrik kimi seçildi və Node.js-in populyarlığı artdıqca, V8 indi JavaScript-də yazılmış inanılmaz miqdarda kodların server tərəfini gücləndirən mühərrikə çevrildi.
+Digər brauzerlərin öz JavaScript mühərriki var.
 
  ---
  ## Javascriptdə əmr sıralaması və əmrlərin tərcümə prosesi necə olur?
