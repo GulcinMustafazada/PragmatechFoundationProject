@@ -8,7 +8,7 @@ Bildiyimiz kimi kompüterlər ikilik say sistemində yəni sıfırlar və birlə
 
 
 ## Javascript data tipləri hansılardır və niyə biz məlumatları növlərə ayırma ehtiyacı hissedirik?
-Proqramlaşdırmada data tipləri vacib bir anlayışdır.Bu səbəbdən də dəyişənlər üzərində işləyə bilmək üçün data tipləri haqqında məlumat bilmək vacibdir.Javascriptdəki dəyişən istənilən tipdə olan məlumat saxlıya bilər. Dəyişən bir yerdə yazı, fərqli yerdə isə rəqəm ola bilər.Javascriptdə 7 data tipi vardır.
+Proqramlaşdırmada data tipləri vacib bir anlayışdır.Bu səbəbdən də dəyişənlər üzərində işləyə bilmək üçün data tipləri haqqında məlumat bilmək vacibdir. Dəyişənləri və dəyərləri düzgün yerdə  istifadə etmək üçün önəmlidir.Javascriptdəki dəyişən istənilən tipdə olan məlumat saxlıya bilər. Dəyişən bir yerdə yazı, fərqli yerdə isə rəqəm ola bilər.Javascriptdə 7 data tipi vardır.
 * *Number(Rəqəm)*-Rəqəmlər həm rəqəm həm də kəsrlər ola bilər.Onlar üzərində müəyyən riyazi əməliyyatları aparmaq olar.
 * *die()*-Bu əməliyyat xəta ilə durmur.
 * *String(yazı)*-JavaScriptdəki yazılar dırnağın daxilində olmalıdır.Javascriptdə 3 növ yazılış şəkli vardır 
@@ -34,7 +34,8 @@ Let ilə təyin olunan dəyişənlər istifadə etməzdən əvvəl elan edilməl
 * var – köhnə açar sözdür.Var açar sözü ilə elan edilən dəyişənlərin blok əhatə dairəsi OLMAZ.
 { } blokunun daxilində elan edilmiş dəyişənlərə blokdan kənardan daxil olmaq olar.
 * const – let kimidir. Ancaq dəyişənin dəyəri dəyişdirilə bilməz.
-Sabit bir dəyər təyin etmir. Bir dəyərə daimi istinad təyin edir.
+Sabit bir dəyər təyin edir. Bir dəyərə daimi istinad təyin edir.
+let dən fərqli olaraq boş(yəni dəyəri olmayan) bir dəyişən təyin etmək olmur.
 
 ---
 ## Proqramlaşdırma paradiqmaları nədir?
