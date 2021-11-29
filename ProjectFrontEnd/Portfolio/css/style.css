@@ -79,6 +79,7 @@ body{
     width:20px;
     height:20px;
     text-align: center;
+    
    
 }
 .navbar-nav em{
@@ -168,7 +169,11 @@ padding: 10px 0px;
 .social i{
     color:#fff;
   font-size:30px;
- 
+ cursor:pointer;
+ transition: all 0.5s ease;
     
+}
+.social i:hover{
+    color:#635f5f;
 }
 /*Home section style end*/
