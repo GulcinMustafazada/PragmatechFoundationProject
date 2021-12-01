@@ -49,6 +49,9 @@ body{
 
     margin-right:50px;
     padding:27px 0px;
+ 
+   
+    
   
 }
 .navbar-nav ul li   :hover{
@@ -79,7 +82,6 @@ body{
     width:20px;
     height:20px;
     text-align: center;
-    
    
 }
 .navbar-nav em{
