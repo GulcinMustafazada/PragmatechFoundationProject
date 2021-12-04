@@ -48,15 +48,14 @@ body{
 .navbar-nav ul li{
 
     margin-right:50px;
-    padding:27px 0px;
- 
-   
+    padding:27px 0px; 
     
   
 }
 .navbar-nav ul li   :hover{
     background-color: #fff; 
     color: #232323;
+   
 
 }
 
@@ -78,6 +77,8 @@ body{
    
 
 }
+
+
 .navbar-nav ul li i{
     width:20px;
     height:20px;
