@@ -19,30 +19,41 @@ body{
 .heading h1{
     text-transform: uppercase;
     font-size: 28px;
+    margin:10px;
 }
-.text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-}
+
 .text p{
     color: #859196;
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 20px;
+    margin:20px;
   
 }
 .item1{
     background-color: white;
    
-    width:330px;
+    width:320px;
     height:380px;
      margin:10px ;
      padding:20px;
      border-radius: 4px;
-    
-
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.item1 img{
+    margin:10px auto;
+}
+h2{
+    font-size:20px;
 }
 .item1 p{
     color: #859196;
+    margin:20px;
+    text-align: center;
+    line-height: 1.7rem;
 }
 button{
     width:140px;
@@ -53,6 +64,7 @@ button{
     border-radius: 4px;
     font-weight: 600;
     cursor:pointer;
+    margin-top:25px;
  
 }a{
     text-decoration:none;
