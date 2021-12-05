@@ -26,7 +26,7 @@ body{
     left: 0;
     font-weight: 300;
     font-size: 1rem;
-    width: 40vh;
+    width: 43vh;
     box-sizing: border-box;
 }
 .navbar-logo{
@@ -44,6 +44,8 @@ body{
 .navbar-nav ul {
     
     height: 48vh;
+    margin-left:40px;
+    text-align:left;
 }
 .navbar-nav ul li{
 
@@ -82,11 +84,11 @@ body{
 .navbar-nav ul li i{
     width:20px;
     height:20px;
-    text-align: center;
+  
    
 }
 .navbar-nav em{
-    margin-left:5px;
+    margin-left:10px;
     font-size:14px;
     font-style: normal;
 }
@@ -166,7 +168,7 @@ padding: 10px 0px;
 .social{
     
     justify-content: space-between;
-    
+   margin-right:70px;
 }
 
 .social i{
@@ -174,6 +176,8 @@ padding: 10px 0px;
   font-size:30px;
  cursor:pointer;
  transition: all 0.5s ease;
+ 
+    
     
 }
 .social i:hover{
