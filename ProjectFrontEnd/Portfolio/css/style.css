@@ -15,7 +15,7 @@ body{
     background-size: cover;
    
 }
-/* Navbar section style start*/
+/* Navbar section style starts*/
 #navbar{
     top: 10vh;
     bottom: 10vh;
@@ -92,9 +92,9 @@ body{
     font-size:14px;
     font-style: normal;
 }
-/*Navbar section style end*/
+/*Navbar section style ends*/
 
-/*Home section style start*/
+/*Home section style starts*/
 #home{
    
     position: relative;
@@ -183,4 +183,4 @@ padding: 10px 0px;
 .social i:hover{
     color:#635f5f;
 }
-/*Home section style end*/
+/*Home section style ends*/

@@ -58,6 +58,7 @@
     box-sizing:border-box; 
     opacity:0;
     transition: all 1s ease;
+    
 }
 
 .works-item:hover .service-overlay{
@@ -69,7 +70,6 @@
     color:#fff; 
     border-bottom: 2px solid #fff;
     padding: 10px 0;
-
     }
 .service-overlay p{
         color:#fff;

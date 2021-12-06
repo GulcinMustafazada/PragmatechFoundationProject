@@ -38,6 +38,7 @@ font-size:30px;
 display:inline-block ;
 border-bottom: 2px solid #fff;
 padding: 8px;
+
 }
 .about-content p{
     color:#fff;
@@ -45,8 +46,29 @@ padding: 8px;
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 25px;
-    padding:10px;
+    margin-left:10px;
 }
+.about-content h2{
+    color:#fff; 
+    font-weight:500; 
+    font-size:15px;
+    margin-top:10px;
+    margin-left:10px;
+    border-bottom:2px solid #fff;
+    display:inline-block;
+}
+.about-content h4{
+    color:#fff; 
+    font-weight:400; 
+    font-size:13px;
+    margin-top:10px;
+    margin-left:10px;
+    border:2px solid #fff;
+    border-style: dotted;
+    display:inline-block;
+    padding:5px;
+}
+
 .about-image{
     
    height:540px;;
