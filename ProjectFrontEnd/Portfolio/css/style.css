@@ -51,9 +51,10 @@ body{
 
     margin-right:50px;
     padding:27px 0px; 
-    
   
+    
 }
+
 .navbar-nav ul li   :hover{
     background-color: #fff; 
     color: #232323;
@@ -75,7 +76,9 @@ body{
     font-size: 18px;
     letter-spacing: 1px;
     cursor: pointer;
-  
+    background-color: transparent;
+    transition: color 2s, background 1s;
+   
    
 
 }
