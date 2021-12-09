@@ -38,6 +38,7 @@ font-size:30px;
 display:inline-block ;
 border-bottom: 2px solid #fff;
 padding: 8px;
+margin-left:10px;
 
 }
 .about-content p{
@@ -47,6 +48,7 @@ padding: 8px;
     letter-spacing: 1px;
     line-height: 25px;
     margin-top:10px;
+    margin-left:10px;
 }
 .about-content h2{
     color:#fff; 
