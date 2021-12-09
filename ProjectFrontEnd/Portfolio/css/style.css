@@ -51,6 +51,7 @@ body{
 
     margin-right:50px;
     padding:27px 0px; 
+
   
     
 }
@@ -77,7 +78,7 @@ body{
     letter-spacing: 1px;
     cursor: pointer;
     background-color: transparent;
-    transition: color 2s, background 1s;
+   
    
    
 
