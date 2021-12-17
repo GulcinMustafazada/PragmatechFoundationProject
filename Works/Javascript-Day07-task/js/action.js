@@ -12,7 +12,19 @@ function changeTextColor(){
     text.style.color="green"
     text1.style.color="green"
 }
-let imgborder=document.querySelector('img')
+let image=document.querySelector('img')
 function addBorder(){
-    imgborder.style.border="2px solid black"
+    image.style.border="10px solid black"
+}
+
+
+function replaceImage(){
+let image1=document.createImageBitmap("images/2.jpg")
+image.replaceChild(image1,image)
+}
+
+let txt1=document.querySelector('li').childNodes[0]
+let txt2=document.querySelector('li').childNodes[6]
+function changeText(){
+  document.replaceChild(txt1,txt2)
 }
