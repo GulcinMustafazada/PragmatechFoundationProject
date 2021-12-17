@@ -10,38 +10,38 @@
   
 1. _Navbar , Grid və Position taskları yerinə yetirdim_:
    
-   [Kodlar]:
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Navbar-task) -11.10.2021
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/NewTask) -13.10.2021
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Position-task) -19.10.2021
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Website-task) -20.10.2021
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Grid-task) -24.10.2021
+   
+     * [Kodlar-11.10.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Navbar-task) 
+     * [Kodlar-13.10.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/NewTask) 
+     * [Kodlar-19.10.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Position-task) 
+     * [Kodlar-20.10.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Website-task) 
+     * [kodlar-24.10.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Grid-task) 
      
 2. _Noke saytında bəzi hissələr yaratdım_:
    
-   [Kodlar]:
-    * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Noke) -20.10.2021
+   
+    * [Kodlar -20.10.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Noke)
 
 3. _Animation row-col taskları yerinə yetirdim_:
    
-    [Kodlar]:
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/animation-task)  -19.11.2021-
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/row-col%20task) -20.11.2021
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Col-task) -21.11.2021
+    
+     * [Kodlar-19.11.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/animation-task)  
+     * [Kodlar-20.11.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/row-col%20task) 
+     * [Kodlar-21.11.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Col-task) 
 
 
 
 4. _Javascript taskları və random bgcolor taskını yerinə yetirdim_:
      
-   [Kodlar]:
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task1) -29.11.2021
-   * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task2) -29.11.2021
-   * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task3) -30.11.2021
-   * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task4) -30.11.2021
-   * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-BgColor) -11.12.2021
+   
+   * [Kodlar-29.11.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task1) 
+   * [Kodlar-29.11.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task2) 
+   * [Kodlar-30.11.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task3) 
+   * [Kodlar-30.11.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task4) 
+   * [Kodlar-11.12.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-BgColor) 
 
 5. _Portfoliomda HTML və CSS kodlarını tamamladım_:
    
-   [Kodlar]:
-     * (https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/ProjectFrontEnd/Portfolio) -13.12.2021
+   
+     * [Kodlar-13.12.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/ProjectFrontEnd/Portfolio) 
 
