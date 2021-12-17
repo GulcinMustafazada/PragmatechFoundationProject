@@ -1,0 +1,56 @@
+.btns {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.btns button {
+    border: 1px solid black;
+    background: lightblue;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: all .3s ease;
+    padding: 10px 20px;
+}
+
+.btns button:hover {
+    background: black;
+    color: lightblue;
+    border: 1px solid lightblue;
+}
+
+.box {
+    padding: 15px 30px;
+    background: red;
+    transition: all .3s ease;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+
+.card {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    width: 800px;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h1 {
+    margin: 20px 0px;
+    font-size: 1.6em;
+}
+
+.card ul {
+    list-style-type: square;
+    padding-left: 30px;
+}
