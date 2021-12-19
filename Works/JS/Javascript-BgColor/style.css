@@ -1,0 +1,25 @@
+body{
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+button{
+    width:150px;
+    height:40px;
+    font-size:15px;
+    border:1px solid black;
+    background-color:blue;
+    color:white;
+   
+  
+    
+
+}
+.box{
+    width:300px;
+    height:300px;
+    background-color: black;
+    margin:50px auto;
+}
