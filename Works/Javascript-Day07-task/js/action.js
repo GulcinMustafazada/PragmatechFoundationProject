@@ -1,6 +1,6 @@
-let element=document.querySelector('body')
+
 function changeBgColor(){
-    element.style.background="red"
+document.body.style.background="red"
 }
 let title=document.querySelector('h1')
 function changeTitleColor(){
@@ -16,15 +16,8 @@ let image=document.querySelector('img')
 function addBorder(){
     image.style.border="10px solid black"
 }
-
-
-function replaceImage(){
-let image1=document.createImageBitmap("images/2.jpg")
-image.replaceChild(image1,image)
-}
-
-let txt1=document.querySelector('li').childNodes[0]
-let txt2=document.querySelector('li').childNodes[6]
-function changeText(){
-  document.replaceChild(txt1,txt2)
+function findWord(){
+  let result= text.includes('prroqrmçı')
+  document.querySelector('.card p').innerHTML=result
+  document.querySelector('.card div').innerHTML=`Nəticə: ${result}`
 }
