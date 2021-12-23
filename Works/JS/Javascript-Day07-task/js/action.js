@@ -16,8 +16,8 @@ let image=document.querySelector('img')
 function addBorder(){
     image.style.border="10px solid black"
 }
-// function findWord(){
-//   let result= text.includes('prroqrmçı')
-//   document.querySelector('.card p').innerHTML=result
-//   document.querySelector('.card div').innerHTML=`Nəticə: ${result}`
-// }
+ function findWord(){
+  let result= text.includes('prroqrmçı')
+   document.querySelector('.card p').innerHTML=result
+   document.querySelector('.card div').innerHTML=`Nəticə: ${result}`
+ }
