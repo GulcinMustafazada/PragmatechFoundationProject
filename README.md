@@ -39,7 +39,7 @@
    * [Kodlar-30.11.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task3) 
    * [Kodlar-30.11.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-task4) 
    * [Kodlar-11.12.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/Javascript-BgColor) 
-
+   * [Kodlar-23.12.2021](https://github.com/GulcinMustafazada/PragmatechFoundationProject/tree/master/Works/JS/Javascript-Day07-task)
 5. _Portfoliomda HTML və CSS kodlarını tamamladım_:
    
    
