@@ -10,11 +10,13 @@ body{
     font-size: 100%;
     background-color: #fff;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-image: url(../images/Firstbg.jpeg);
+     background-image: url(../images/Firstbg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+     
    
 }
+
 /* Navbar section style starts*/
 #navbar{
     top: 10vh;
