@@ -4,7 +4,7 @@
 
 }
 body{
-  
+  /* overflow: hidden; */
     font-size: 100%;
     background-color: #fff; 
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -135,7 +135,7 @@ body{
     background-image: url(../images/second_bg.jpg);
 }
 .slides .slide:nth-child(3){
-    background-image: url(../images/third_bg.jpg);
+    background-image: url(../images/first_bg.jpg);
 }
 .slides .slide:nth-child(4){
     background-image: url(../images/fourth_bg.jpg);
@@ -360,23 +360,30 @@ height:100%;
         line-height: 25px;
         padding:10px;
     }
-     .btn{
+     .skills-btn{
     
         border:2px solid #fff;
-        width:170px;
         height:35px;
+        width:170px;
         display:flex;
         align-items:center;
         text-decoration: none;
         transition: all 1s ease;
         justify-content: center;
     }
-    .btn a{
+    .skills-btn a{
         color:#fff;
         font-size:14px;
         text-decoration: none;
         padding:20px;
-    }  
+    } 
+    .skills-btn:hover{
+        background-color: #fff;
+        
+    }
+    .skills-btn a:hover{
+        color:#232323;
+    }
     .portfolio-items{
         position: relative;
         width: 70%;
@@ -528,21 +535,33 @@ height:100%;
       }
     
       
-    .btn{
+    .contact-btn{
         justify-content: center;
         width:375px;
-       
+        border:2px solid #fff;
+        height:35px;
+        display:flex;
+        align-items:center;
+        text-decoration: none;
+        transition: all 1s ease;
+        justify-content: center;
        
     }
     
-    .btn:hover{
+    .contact-btn a{
+        color:#fff;
+        font-size:14px;
+        text-decoration: none;
+        padding:20px;
+    
+    }
+    .contact-btn:hover{
         background-color: #fff;
         
     }
-    .btn a:hover{
+    .contact-btn a:hover{
         color:#232323;
     }
-    
 
 .footer-item{
     left: 30%;
