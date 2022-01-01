@@ -102,16 +102,23 @@ body {
 
 
 /*Slider style starts*/
+#slider{
+  position:relative
+}
 .slides {
   width: 500vw;
   height: 100vh;
   transform: translateX(0px);
+  position:absolute;
+  top:0;
+  left:0;
 }
 .slides .slide {
   width: 100vw;
   height: 100vh;
   float: left;
   background-size: cover;
+
 }
 
 .slides .slide:nth-child(1) {
