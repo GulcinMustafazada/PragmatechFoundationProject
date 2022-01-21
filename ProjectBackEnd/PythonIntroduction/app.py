@@ -2,4 +2,8 @@
 a=input()
 print(type(a))
 
-#second exercise
+#third exercise
+b=str(input())
+x=list(b)
+x.reverse()
+print(x)
