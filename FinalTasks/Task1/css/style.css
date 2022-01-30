@@ -262,9 +262,7 @@ box-sizing:border-box;
     width:100%;
     height:333.5px;
 }
-.advantages{
-    padding:90px;
-}
+
 .text-primary{
     color: #5dd39e !important;
 }
@@ -275,10 +273,12 @@ box-sizing:border-box;
     text-transform: uppercase;
     font-weight: 500;
     color:#333;
+    margin-top:50px;
 }
 
 .about-advantages{
     margin-top:50px;
+    padding:50px;
 }
 .advantages-elements{
     width: 100%;
@@ -317,7 +317,6 @@ box-sizing:border-box;
     position: relative;
     z-index: 1;
     overflow: hidden;
-    
    
 }
 .parallax-content{
@@ -333,9 +332,9 @@ box-sizing:border-box;
     justify-content: center;
 }
 .material-parallax img{
-
- width: 100%;
- 
+    width: 100%;
+    height: 585px;
+   
 }
 .parallax-content h2 {
     color:#fff;
@@ -381,6 +380,7 @@ box-sizing:border-box;
     color:#fff;
     text-decoration: none;
 }
+
 /* About Section Style Ends*/
 
 
@@ -404,9 +404,7 @@ box-sizing:border-box;
     margin-left:75px;
     margin-right:75px;
     box-sizing:border-box;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    
     
 }
 .products-element{
@@ -452,6 +450,7 @@ box-sizing:border-box;
     font-size: 0.875rem;
     line-height: 1.9;
     transition: .3s ease-out;
+    
    
 }
 .products-btn:hover{
@@ -473,6 +472,118 @@ box-sizing:border-box;
 /*Products Section Style Ends*/
 
 
+/*Testimonials Section Style Starts*/
+.testimonials-header{
+    line-height: 1.5;
+    font-size: 36px;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    margin-top:70px;
+}
+.testimonials-header hr{
+    width: 56px;
+    height: 8px;
+    padding: 0;
+    margin: 21px auto 21px;
+    background: #eee;
+    border: none;
+}
+.testimonials-about-elements{
+    width: 100%;
+    height: 132px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.testimonials-elements{
+    width: 397px;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonials-content h6{
+    font-size: 14px;
+    line-height: 0.8;
+    font-weight: 900;
+    color: #252525;
+}
+.testimonials-content i{
+    font-size: 12px;
+    margin-top: -5px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.92857;
+    color: #888;
+
+
+}
+
+.testimonials-content p{
+    margin-top: 8px;
+    line-height: 21px;
+    font-size: 12px;
+    color: #888;
+}
+.testimonials-image img{
+    border-radius: 70px;
+    
+}
+.testimonials-image{
+    margin-left:27px;
+}
+.testimonials-content{
+    margin-left: 27px;
+}
+.testimonials-parallax{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    object-fit:cover;
+    background-position: 80% center;
+    height: 418px;
+    background-image:url(../images/parallax-01.jpg);
+    
+}
+
+.testimonials-parallax-content h3{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 34px;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+.testimonials-btn{
+    cursor:pointer;
+    margin-top: 65px;
+    background-color: #5dd39e;
+    border: 2px solid #5dd39e;
+    min-width: 200px;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px 25px;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    transition: .3s ease-out;
+    color: #fff;
+    font-weight: 700;
+   
+}
+.testimonials-btn:hover{
+    background-color: #20c997;
+}
+
+/*Testimonials Section Style Ends*/
+
 /* News Section Style Starts*/
 .news-content{
     margin-top:50px;
@@ -485,14 +596,16 @@ box-sizing:border-box;
     color: #333;
     text-align:center;
     text-decoration: none;
+    
 }
 .news-images{
+
     display:grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     width:1200px;
     height:380px;
     margin-bottom:50px;
-    
+    margin-top:50px;
     margin-left:70px;
     gap:10px;
 }
@@ -517,19 +630,21 @@ box-sizing:border-box;
 .news-parallax{
     background-image: url(../images/parallax-05.jpg);
     background-position: 50%;
+    margin-top:40px;
 
 }
 .news-parallax-elements{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items:center;
+    height:639px;
     
 }
 .news-parallax-content h3{
     line-height: 1.5;
     font-size: 36px;
     font-weight: 500;
-    max-width: 51.66667%;
+    
 }
 .text-white{
     color: #fff;
@@ -564,12 +679,17 @@ a{
     color:#fff;
     text-decoration: none;
 }
+.news-btn:hover{
+    background-color: #20c997;
+}
 
 /*News Section Style Ends*/
 
 
-/*Contacts Sectgion Style Starts*/
-
+/*Contacts Section Style Starts*/
+#contacts{
+    margin-top:50px;
+}
 .contact-info h3{
     line-height: 1.5;
     font-size: 36px;
@@ -641,6 +761,7 @@ table a:hover{
 .contact-form{
     background: #fff; 
     margin-right:40px;
+    margin-top:20px;
      max-width: 41.66667%;
      box-sizing: border-box;
      height:475px;
@@ -723,3 +844,84 @@ option{
     padding: 0px 2px 1px;
 
 }
+/*Contacts Section Style Ends*/
+
+/*Footer Section Style Starts*/
+#footer{
+    background-color:#131313; 
+    height: 317px;
+
+}
+.footer-container img{
+    margin-bottom: 58px;
+    cursor:pointer;
+    
+}
+.footer-container img:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.08); 
+    transform: scale(1.08); 
+  }
+.footer-container{
+    text-align: center;
+    margin-top: 85px;
+    box-sizing: border-box;
+    padding-top: 75px;
+}
+.footer-icons{
+    padding-top: 25px;
+    font-size: 19px
+}
+.footer-icons ul{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.footer-icons ul li i{
+    margin-right: 5px;
+    color: #fff;
+    
+}
+.footer-container p span{
+    box-sizing: border-box;
+    line-height: 21px;
+    font-size: 12px;
+    font-weight: 300;
+    
+    
+
+}
+.footer-container p{
+    margin-top: 7px;
+}
+.text-gray{
+    color: #888; 
+}
+.text-white{
+    color: #fff;
+    
+
+
+}
+.footer-icon{
+  background-color:#333; 
+  width: 37px;
+  height: 37px;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: 0.4s;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  cursor:pointer;
+  
+}
+.footer-icon:hover {
+    background-color:#131313;
+    border: 1.5px solid #fff;
+    
+}
+/*Footer Section Style Ends*/
