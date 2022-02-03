@@ -70,7 +70,7 @@
     </section>
     <!--Navbar Section Ends-->
 
-    <!--Slider Starts-->
+    <!--Slider Section Starts-->
     <section id="slider">
         <div class="slides">
             <div class="slide" id="1">
@@ -242,14 +242,31 @@
                 <div class="contact-items">
                     <div class="contact-map"><iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.3706931494994!2d49.81187611489339!3d40.37847616588997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307deb555283e3%3A0xfe36d126d05f404e!2zNDUgQmVoYnVkIMWeYXh0YXh0aW5za2ksIEJha8SxLCBBesmZcmJheWNhbg!5e0!3m2!1saz!2s!4v1637139206842!5m2!1saz!2s"
-                            width="430" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-                    <div class="contact-content">
-                        <input type="text" name="fname" placeholder="Adınız..."><br>
-                        <input type="email" name="emailaddress" placeholder="Emailiniz..."><br>
-                        <input type="text" name="subject" placeholder="Mövzu..."><br>
-                        <textarea name="message" rows="6" placeholder="Mesajınız..."></textarea>
-                        <bottom class="contact-btn btn-margin "><a href="#">İNDİ GÖNDƏR</a> </bottom>
-
+                            width="430" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="contact-content ">
+                        <form  action="#" onsubmit="getFormData(event)">
+                            <div class="form-element">
+                              <input type="text" name='name' placeholder="Adınız..." onkeyup="checkFunc(event)"><br>
+                              
+                           </div>
+                           <div class="form-element">
+                              <input type="email" name="email" placeholder="Emailiniz...">
+                             
+                           </div>
+                           <div class="form-element"
+                              <input type="text" name="subject" placeholder="Mövzu..." >
+                              
+                           </div>
+                           <div class="form-element">
+                              <textarea name="message" rows="6"  placeholder="Mesajınız..."></textarea>
+                              
+                           </div>
+                            <div class="form-element">
+                              <!--<bottom class="contact-btn btn-margin "><a href="#">İNDİ GÖNDƏR</a> </bottom>--> 
+                              <a href="#"><input type="submit" value="İNDİ GÖNDƏR" class="contact-btn "></a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -257,7 +274,7 @@
 
     </section>
 
-    <!--Slider Ends-->
+    <!--Slider Section Ends-->
 
     <!--Footer Section Starts-->
     <section id="footer">
@@ -267,6 +284,7 @@
     </section>
 
     <!--Footer Section Ends-->
+    <script src="js/app.js"></script>
 </body>
 
 </html>
