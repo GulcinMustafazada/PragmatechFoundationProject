@@ -11,7 +11,7 @@
                 }
                 
                 .home-container {
-                    background-image: url(../images/slide_1.jpg);
+                    background: rgba(0, 0, 0, 0) url(../images/slide_1.jpg);
                     width: 100%;
                     background-size: cover;
                     background-color: rgba(0, 0, 0, 0);
@@ -218,4 +218,68 @@
                 .container-btn:hover {
                     background-color: #ca3d26;
                     border: none;
+                }
+                
+                #about {
+                    background: url(../images/home_three_about_bg.png) no-repeat scroll center bottom / contain;
+                    width: 100%;
+                    position: relative;
+                }
+                
+                .about-container {
+                    width: 100%;
+                    padding: 50px;
+                    box-sizing: border-box;
+                }
+                
+                .about-head-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0x 50px;
+                    margin-bottom: 50px;
+                }
+                
+                .about-head-text h2 {
+                    color: #ca3d26;
+                    font-size: 80px;
+                    text-transform: capitalize;
+                    font-family: "Dancing Script", cursive;
+                    letter-spacing: 2px;
+                    line-height: 0.8;
+                }
+                
+                .about-content {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 15px;
+                    font-weight: 400;
+                    letter-spacing: 0.3px;
+                    line-height: 1.7em;
+                    margin: 0px 40px;
+                }
+                
+                .about-content-text {
+                    color: #4a4d4f;
+                    padding: 15px;
+                }
+                
+                .about-content-text p {
+                    margin: 0 0 30px;
+                }
+                
+                .big-text {
+                    float: left;
+                    font-size: 80px;
+                    font-weight: 700;
+                    margin-bottom: -4px;
+                    margin-right: 10px;
+                    line-height: 1;
+                }
+                
+                .about-author-sign {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 50px;
                 }
