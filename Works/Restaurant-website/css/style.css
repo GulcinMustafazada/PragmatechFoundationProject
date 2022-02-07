@@ -16,7 +16,7 @@
                     background-size: cover;
                     background-color: rgba(0, 0, 0, 0);
                     background-position: 50% 50%;
-                    background-attachment: scroll;
+                    background-attachment: fixed;
                     height: 100%;
                 }
                 
@@ -285,7 +285,7 @@
                 }
                 
                 .offer-container {
-                    background: url(../images/promotions_area_bg_1.jpg) no-repeat scroll center center / cover;
+                    background: url(../images/promotions_area_bg_1.jpg) no-repeat fixed center center / cover;
                     position: relative;
                     width: 100%;
                     padding: 50px 0px;
