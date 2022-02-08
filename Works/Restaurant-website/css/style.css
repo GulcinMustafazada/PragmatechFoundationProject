@@ -400,3 +400,33 @@
                 border-color: #ca3d26;
                 color: #fff;
             }
+            
+            .food-menu {
+                margin: 70px;
+                height: 600px;
+            }
+            
+            .food-menu-list {
+                height: 200px;
+                width: 100%;
+                display: flex;
+                padding: 5px;
+            }
+            
+            .single-food-menu {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                position: relative;
+            }
+            
+            .food-menu-img {
+                border-radius: 50%;
+                height: 100px;
+                left: 0;
+                overflow: hidden;
+                position: absolute;
+                top: 0;
+                width: 100px;
+                box-shadow: 0 0 0 10px #ddd;
+            }
