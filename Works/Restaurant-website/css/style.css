@@ -548,3 +548,15 @@
             .team-member p {
                 margin: 0 0 10px;
             }
+            
+            .member-social-bookmark ul {
+                height: 220px;
+                margin-top: -110px;
+                position: absolute;
+                right: 10%;
+                top: 50%;
+            }
+            
+            .member-social-bookmark ul li {
+                margin: 15px 0;
+            }
