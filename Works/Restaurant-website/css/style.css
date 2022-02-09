@@ -3,7 +3,12 @@
             }
             
             body {
+                color: #555555;
                 font-family: "Lato", sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                letter-spacing: 0.3px;
+                line-height: 1.7em;
             }
             
             #home {
@@ -509,4 +514,37 @@
             a.reservation-button:hover {
                 background: #ca3d26 none repeat scroll 0 0;
                 color: #fff;
+            }
+            
+            .team-about {
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                margin-left: 130px;
+            }
+            
+            .team-member {
+                width: 20%;
+                margin: 10px;
+            }
+            
+            .team-member-img {
+                position: relative;
+            }
+            
+            .team-member-detail {
+                text-align: center;
+            }
+            
+            .team-member-detail h3 {
+                transition: all 0.3s ease 0s;
+                letter-spacing: 1px;
+                font-size: 20px;
+                margin: 0 0 15px;
+                font-family: "PT Sans Narrow", sans-serif;
+                font-weight: 700;
+            }
+            
+            .team-member p {
+                margin: 0 0 10px;
             }
