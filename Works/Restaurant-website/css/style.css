@@ -417,7 +417,10 @@
                 width: 50%;
                 height: 100%;
                 display: flex;
-                position: relative;
+                border-bottom: 1px solid #E4E4E4;
+                margin-bottom: 40px;
+                padding: 30px;
+                margin: 0px 20px;
             }
             
             .food-menu-img {
@@ -425,8 +428,85 @@
                 height: 100px;
                 left: 0;
                 overflow: hidden;
-                position: absolute;
                 top: 0;
                 width: 100px;
                 box-shadow: 0 0 0 10px #ddd;
+            }
+            
+            .food-menu-content {
+                margin-left: 30px;
+                color: #1e1e1f;
+                padding: 0;
+                text-align: inherit;
+                width: 75%;
+            }
+            
+            table {
+                width: 100%;
+            }
+            
+            .food-menu-content h3 {
+                font-size: 20px;
+                margin-bottom: 8px;
+                margin: 0 0 15px;
+                font-family: "PT Sans Narrow", sans-serif;
+                font-weight: 700;
+            }
+            
+            .menu-price {
+                color: #ca3d26;
+                float: right;
+            }
+            
+            .food-menu-content td {
+                padding: 5px;
+            }
+            
+            .reservation-container {
+                color: #fff;
+                font-family: "PT Sans Narrow", sans-serif;
+                position: relative;
+                background: rgba(0, 0, 0, 0) url(../images/promotions_area_bg_2.jpg) no-repeat fixed;
+                height: 450px;
+                background-position: 50% -106.4px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+            .reservation-content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+            .reservation-content h1 {
+                font-size: 50px;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+                margin: 0 0 15px;
+                font-family: "PT Sans Narrow", sans-serif;
+                font-weight: 700;
+            }
+            
+            a.reservation-button {
+                background: #fff none repeat scroll 0 0;
+                color: #ca3d26;
+                display: inline-block;
+                font-weight: 700;
+                letter-spacing: 4px;
+                margin-top: 20px;
+                padding: 15px 20px;
+                text-align: center;
+                text-transform: uppercase;
+                min-width: 200px;
+                text-decoration: none;
+                transition: all .3s ease;
+            }
+            
+            a.reservation-button:hover {
+                background: #ca3d26 none repeat scroll 0 0;
+                color: #fff;
             }
