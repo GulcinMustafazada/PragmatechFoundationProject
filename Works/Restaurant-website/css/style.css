@@ -530,6 +530,7 @@
             
             .team-member-img {
                 position: relative;
+                transition: all .3s ease;
             }
             
             .team-member-detail {
@@ -555,8 +556,13 @@
                 position: absolute;
                 right: 10%;
                 top: 50%;
+                opacity: 0;
             }
             
             .member-social-bookmark ul li {
                 margin: 15px 0;
+            }
+            
+            .team-member-img img :hover {
+                background-color: #4a4d4f;
             }
