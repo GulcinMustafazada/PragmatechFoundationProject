@@ -14,316 +14,319 @@
     <title>MyPortfolio</title>
 </head>
 
-<body>
-    <!--Navbar Section Starts-->
-    <section id="navbar">
-        <div class="navbar-logo">
-            <img src="images/image1.png" alt="">
-        </div>
-        <div class="navbar-nav ">
-            <ul class="flex justify-content-around text-align flex-direction">
-                <li>
-                    <div class="nav-hover">
-                        <a href="#" class="active" onclick="changePageRight()">
-                            <i class="fas fa-home"></i>
-                            <em>Ana Səhifə</em>
-                        </a>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <!--Navbar Section Starts-->
+        <section id="navbar">
+            <div class="navbar-logo">
+                <img src="images/image1.png" alt="">
+            </div>
+            <div class="navbar-nav ">
+                <ul class="flex justify-content-around text-align flex-direction">
+                    <li>
+                        <div class="nav-hover">
+                            <a href="#" class="active" onclick="changePageRight()">
+                                <i class="fas fa-home"></i>
+                                <em>Ana Səhifə</em>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-hover">
+                            <a href="#" onclick="changePageRight() " onclick="changePageLeft()">
+
+                                <i class="fas fa-user-alt"></i>
+                                <em>Haqqımda</em>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-hover">
+                            <a href="#" onclick="changePageRight() " onclick="changePageLeft()">
+                                <i class="fas fa-pen"></i>
+                                <em>Blog</em>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-hover">
+                            <a href="#" onclick="changePageRight() " onclick="changePageLeft()">
+                                <i class="far fa-image"></i>
+                                <em>Portfolio</em>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nav-hover">
+                            <a href="#" onclick="changePageRight() " onclick="changePageLeft()">
+                                <i class="far fa-envelope"></i>
+                                <em>Əlaqə</em>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <!--Navbar Section Ends-->
+
+        <!--Slider Section Starts-->
+        <section id="slider">
+            <div class="slides">
+                <div class="slide" id="1">
+                    <div class="home flex justify-content-around align-items-center">
+                        <div class="image"><img src="images/myimg7.jpeg" alt="myimage"></div>
+                        <div class="home-content">
+                            <h1>MUSTAFAZADƏ GÜLÇİN</h1>
+                            <p> <em> Web developer</em>...</p>
+                            <div class="social flex">
+                                <button class="btn"><a href="about.html">Daha çox</a></button>
+
+
+                                <a href="https://www.facebook.com/profile.php?id=100038549012827">
+                                    <i class="fab fa-facebook-square"></i></a>
+
+
+                                <a href="https://z-p15.www.instagram.com/">
+                                    <i class="fab fa-instagram-square"></i></a>
+
+
+                                <a href="https://twitter.com/GulcinZadeh?t=ApEWlMKXUb2gUydunQd9FA&s=09">
+                                    <i class="fab fa-twitter-square"></i> </a>
+
+                                <a href="https://github.com/GulcinMustafazada">
+                                    <i class="fab fa-github-square"></i></a>
+                            </div>
+
+                        </div>
                     </div>
-                </li>
-                <li>
-                    <div class="nav-hover">
-                        <a href="#" onclick="changePageRight() " onclick="changePageLeft()">
+                </div>
+                <div class="slide" id="2">
 
-                            <i class="fas fa-user-alt"></i>
-                            <em>Haqqımda</em>
-                        </a>
+                    <div class="about-items">
+                        <div class="about-content">
+                            <h1>HAQQIMDA</h1>
+                            <p>Salam ,Mən Mustafazadə Gülçin . 19 yaşım var. Proqramlaşdırma maraqlı sahədir və olduqca əzm tələb edir ,və mən bu sahədə uğurlu olduğuma inanıram.</p>
+                            <h2>TƏHSİl : </h2> <br>
+                            <h4>2019-2021</h4>
+                            <p>Azərbaycan Respublikası Prezidenti yanında Dövlət İdarəçilik Akademiyası -kompüter elmləri ixtisası
+                            </p><br>
+                            <h4>2021</h4>
+                            <p>Pragmatech Təhsil və İnkişaf mərkəzində proqramlaşdırma təhsili alıram. <br>
+
+                            </p>
+                            <div class="about-skills">
+                                <h1>Bacarıqlarım</h1>
+                                <p>HTML</p>
+                                <div class="skills-container">
+                                    <div class="skills html">90%</div>
+                                </div>
+
+                                <p>CSS</p>
+                                <div class="skills-container">
+                                    <div class="skills css">80%</div>
+                                </div>
+
+                                <p>JavaScript</p>
+                                <div class="skills-container">
+                                    <div class="skills js">65%</div>
+                                </div>
+
+                                <p>Python</p>
+                                <div class="skills-container">
+                                    <div class="skills python">60%</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-margin"><a href="skills.html">Daha çox</a></button>
+                        </div>
+
+                        <div class="about-image">
+                            <img src="images/aboutimg.jpeg" alt="">
+                            <img src="images/GEN-Palmer-Skills-Atrophy-1290x860-1.jpg"></div>
                     </div>
-                </li>
-                <li>
-                    <div class="nav-hover">
-                        <a href="#" onclick="changePageRight() " onclick="changePageLeft()">
-                            <i class="fas fa-pen"></i>
-                            <em>Blog</em>
-                        </a>
+
+                </div>
+                <div class="slide" id="3">
+                    <div class="blog-items">
+                        <div class="blog-content">
+                            <h1>QUISQUE COMMODO QUAM</h1>
+
+                            <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam faucibus. In et eros urna. Suspendisse potenti. Pellentesque commodo, neque nec molestie tempus,
+                                purus ante feugiat augue.</p>
+                            <button class="blog-btn btn-margin"><a href="portfolio.html">Daha çoxunu oxu</a> </button>
+                        </div>
+                        <div class="blog-content"><img src="images/blog1.jpeg" alt=""></div>
+                        <div class="blog-content"><img src="images/blog2.png" alt=""></div>
+                        <div class="blog-content">
+                            <h1>MAECENAS EU PURUS EU SAPIEN</h1>
+                            <p>Sed vitae felis in lorem mollis mollis eget in leo. Donec commodo, ex nec rutrum venenatis, nisi nisl malesuada magna, sed semper ipsum enim a ipsum. Aenean in ante vel mi molestie bibendum. Quisque sit amet lacus in diam pretium
+                                faucibus. Cras vel justo lorem.</p>
+
+                            <button class="blog-btn "><a href="portfolio.html">Daha çoxunu oxu</a> </button>
+                        </div>
                     </div>
-                </li>
-                <li>
-                    <div class="nav-hover">
-                        <a href="#" onclick="changePageRight() " onclick="changePageLeft()">
-                            <i class="far fa-image"></i>
-                            <em>Portfolio</em>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="nav-hover">
-                        <a href="#" onclick="changePageRight() " onclick="changePageLeft()">
-                            <i class="far fa-envelope"></i>
-                            <em>Əlaqə</em>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        </div>
-    </section>
-    <!--Navbar Section Ends-->
+                </div>
+                <div class="slide" id="4">
+                    <div class="portfolio-items">
 
-    <!--Slider Section Starts-->
-    <section id="slider">
-        <div class="slides">
-            <div class="slide" id="1">
-                <div class="home flex justify-content-around align-items-center">
-                    <div class="image"><img src="images/myimg7.jpeg" alt="myimage"></div>
-                    <div class="home-content">
-                        <h1>MUSTAFAZADƏ GÜLÇİN</h1>
-                        <p> <em> Web developer</em>...</p>
-                        <div class="social flex">
-                            <button class="btn"><a href="about.html">Daha çox</a></button>
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div>
+                                <img src="images/first_big_item.jpg" alt="">
+                            </a>
+                        </div>
 
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/second_big_item.jpg" alt="">
+                            </a>
+                        </div>
 
-                            <a href="https://www.facebook.com/profile.php?id=100038549012827">
-                                <i class="fab fa-facebook-square"></i></a>
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/third_big_item.jpg" alt="">
+                            </a>
+                        </div>
 
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/first_big_item.jpg" alt="">
+                            </a>
+                        </div>
 
-                            <a href="https://z-p15.www.instagram.com/">
-                                <i class="fab fa-instagram-square"></i></a>
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/second_big_item.jpg" alt="">
+                            </a>
+                        </div>
 
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/third_big_item.jpg" alt="">
+                            </a>
+                        </div>
 
-                            <a href="https://twitter.com/GulcinZadeh?t=ApEWlMKXUb2gUydunQd9FA&s=09">
-                                <i class="fab fa-twitter-square"></i> </a>
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/first_big_item.jpg" alt="">
+                            </a>
+                        </div>
 
-                            <a href="https://github.com/GulcinMustafazada">
-                                <i class="fab fa-github-square"></i></a>
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/second_big_item.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/third_big_item.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/first_big_item.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/second_big_item.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="works-item">
+                            <a href="#">
+                                <div class="service-overlay">
+                                    <h2>NUMBER ONE</h2>
+                                    <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
+                                </div><img src="images/third_big_item.jpg" alt="">
+                            </a>
                         </div>
 
                     </div>
                 </div>
-            </div>
-            <div class="slide" id="2">
-
-                <div class="about-items">
-                    <div class="about-content">
-                        <h1>HAQQIMDA</h1>
-                        <p>Salam ,Mən Mustafazadə Gülçin . 19 yaşım var. Proqramlaşdırma maraqlı sahədir və olduqca əzm tələb edir ,və mən bu sahədə uğurlu olduğuma inanıram.</p>
-                        <h2>TƏHSİl : </h2> <br>
-                        <h4>2019-2021</h4>
-                        <p>Azərbaycan Respublikası Prezidenti yanında Dövlət İdarəçilik Akademiyası -kompüter elmləri ixtisası
-                        </p><br>
-                        <h4>2021</h4>
-                        <p>Pragmatech Təhsil və İnkişaf mərkəzində proqramlaşdırma təhsili alıram. <br>
-
-                        </p>
-                        <div class="about-skills">
-                            <h1>My Skills</h1>
-                            <p>HTML</p>
-                            <div class="skills-container">
-                                <div class="skills html">90%</div>
-                            </div>
-
-                            <p>CSS</p>
-                            <div class="skills-container">
-                                <div class="skills css">80%</div>
-                            </div>
-
-                            <p>JavaScript</p>
-                            <div class="skills-container">
-                                <div class="skills js">65%</div>
-                            </div>
-
-                            <p>Python</p>
-                            <div class="skills-container">
-                                <div class="skills python">60%</div>
-                            </div>
+                <div class="slide" id="5">
+                    <div class="contact-items">
+                        <div class="contact-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.3706931494994!2d49.81187611489339!3d40.37847616588997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307deb555283e3%3A0xfe36d126d05f404e!2zNDUgQmVoYnVkIMWeYXh0YXh0aW5za2ksIEJha8SxLCBBesmZcmJheWNhbg!5e0!3m2!1saz!2s!4v1637139206842!5m2!1saz!2s"
+                                width="430" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
-                        <button class="btn btn-margin"><a href="skills.html">Daha çox</a></button>
-                    </div>
+                        <div class="contact-content ">
+                            <form action="#" onsubmit="getFormData(event)">
+                                <div class="form-element">
+                                    <input type="text" name='name' placeholder="Adınız..." onkeyup="checkFunc(event)"><br>
 
-                    <div class="about-image">
-                        <img src="images/aboutimg.jpeg" alt="">
-                        <img src="images/GEN-Palmer-Skills-Atrophy-1290x860-1.jpg"></div>
-                </div>
+                                </div>
+                                <div class="form-element">
+                                    <input type="email" name="email" placeholder="Emailiniz...">
 
-            </div>
-            <div class="slide" id="3">
-                <div class="blog-items">
-                    <div class="blog-content">
-                        <h1>QUISQUE COMMODO QUAM</h1>
+                                </div>
+                                <div class="form-element"> <input type="text" name="subject" placeholder="Mövzu...">
 
-                        <p>Vestibulum augue ex, finibus sit amet nisi id, maximus ultrices ipsum. Maecenas rhoncus nibh in mauris lobortis, a maximus diam faucibus. In et eros urna. Suspendisse potenti. Pellentesque commodo, neque nec molestie tempus, purus
-                            ante feugiat augue.</p>
-                        <button class="blog-btn btn-margin"><a href="portfolio.html">Daha çoxunu oxu</a> </button>
-                    </div>
-                    <div class="blog-content"><img src="images/blog1.jpeg" alt=""></div>
-                    <div class="blog-content"><img src="images/blog2.png" alt=""></div>
-                    <div class="blog-content">
-                        <h1>MAECENAS EU PURUS EU SAPIEN</h1>
-                        <p>Sed vitae felis in lorem mollis mollis eget in leo. Donec commodo, ex nec rutrum venenatis, nisi nisl malesuada magna, sed semper ipsum enim a ipsum. Aenean in ante vel mi molestie bibendum. Quisque sit amet lacus in diam pretium
-                            faucibus. Cras vel justo lorem.</p>
+                                </div>
+                                <div class="form-element">
+                                    <textarea name="message" rows="6" placeholder="Mesajınız..."></textarea>
 
-                        <button class="blog-btn "><a href="portfolio.html">Daha çoxunu oxu</a> </button>
+                                </div>
+                                <div class="form-element">
+                                    <!--<button class="contact-btn btn-margin "><a href="#">İNDİ GÖNDƏR</a> </button>-->
+                                    <a href="#"><input type="submit" value="İNDİ GÖNDƏR" class="contact-btn "></a>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="slide" id="4">
-                <div class="portfolio-items">
 
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div>
-                            <img src="images/first_big_item.jpg" alt="">
-                        </a>
-                    </div>
+        </section>
 
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/second_big_item.jpg" alt="">
-                        </a>
-                    </div>
+        <!--Slider Section Ends-->
 
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/third_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/first_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/second_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/third_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/first_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/second_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/third_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/first_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/second_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                    <div class="works-item">
-                        <a href="#">
-                            <div class="service-overlay">
-                                <h2>NUMBER ONE</h2>
-                                <p>Quisque sit amet lacus in diam pretium faucibus. Cras vel justo lorem.</p>
-                            </div><img src="images/third_big_item.jpg" alt="">
-                        </a>
-                    </div>
-
-                </div>
+        <!--Footer Section Starts-->
+        <section id="footer">
+            <div class="footer-item">
+                <p>Copyright © 2021 Gulcin Mustafazada .</p>
             </div>
-            <div class="slide" id="5">
-                <div class="contact-items">
-                    <div class="contact-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.3706931494994!2d49.81187611489339!3d40.37847616588997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307deb555283e3%3A0xfe36d126d05f404e!2zNDUgQmVoYnVkIMWeYXh0YXh0aW5za2ksIEJha8SxLCBBesmZcmJheWNhbg!5e0!3m2!1saz!2s!4v1637139206842!5m2!1saz!2s"
-                            width="430" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                    <div class="contact-content ">
-                        <form action="#" onsubmit="getFormData(event)">
-                            <div class="form-element">
-                                <input type="text" name='name' placeholder="Adınız..." onkeyup="checkFunc(event)"><br>
-
-                            </div>
-                            <div class="form-element">
-                                <input type="email" name="email" placeholder="Emailiniz...">
-
-                            </div>
-                            <div class="form-element"> <input type="text" name="subject" placeholder="Mövzu...">
-
-                            </div>
-                            <div class="form-element">
-                                <textarea name="message" rows="6" placeholder="Mesajınız..."></textarea>
-
-                            </div>
-                            <div class="form-element">
-                                <!--<button class="contact-btn btn-margin "><a href="#">İNDİ GÖNDƏR</a> </button>-->
-                                <a href="#"><input type="submit" value="İNDİ GÖNDƏR" class="contact-btn "></a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!--Slider Section Ends-->
-
-    <!--Footer Section Starts-->
-    <section id="footer">
-        <div class="footer-item">
-            <p>Copyright © 2021 Gulcin Mustafazada .</p>
-        </div>
-    </section>
-
+        </section>
+    </div>
     <!--Footer Section Ends-->
     <script src="js/app.js"></script>
+    <script src="js/loader.js"></script>
 </body>
 
 </html>
